@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3cc9f3880.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../MKT/SVG/fav-ico.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="estilo_artigo.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Inter", sans-serif;
+        }
+
+        body{
+            background-color: #f7c062;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #conteiner_topo{
+            padding: 10px;
+            width: 100%;
+            height: 400px;
+            background-color: #141414;
+            filter:brightness(60%);
+            background-image: url(imgBlog/grupo-de-pessoas.jpg);
+            background-repeat: no-repeat;
+            background-size: 200%;
+            background-position-y: -80px;
+        }
+
+        #textoTopo{
+            width: 90%;
+            z-index: 10;
+            position: absolute;
+            font-size: 1.5rem;
+            margin-top: 55px;
+            margin-bottom: 35px;
+            color: aliceblue;
+            font-weight: 200;
+            margin-left: 50px;
+        }
+
+        #textoArtigo{
+            color: #302d2d;
+            padding: 15px;
+        }
+
+        .estiloParagrafo{
+            color: aliceblue;
+            font-size: 20px;
+            font-weight: 200;
+            font-style: italic;
+        
+        }
+
+        .ajustMargem{
+            margin-top: 25px;
+        }
+
+        #conteudo {
+            width: 95%;
+            height: auto;
+            margin-top: 85px;
+            margin-bottom: 35px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        h3{
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: normal;
+            text-align: left;
+        }
+
+        footer{
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .icones{
+            padding: 35px;
+            font-size: 25px;
+        }
+
+        .logoBlogFormat{
+            width: 150px;
+            margin-bottom: 30px;
+            opacity: 0.5;
+        }
+
+        /* configuração para tela de pcs. */
+        @media (min-width: 580px) {
+            #textoArtigo{
+                width: 70%;
+        }
+
+        #conteudo{
+            display: flex;
+            justify-content: center;
+            
+            }
+        }
+
+    </style>
+
+    <title>Anunciar e ganhar!</title>
+
+
+</head>
+<body>
+    <div id="textoTopo">
+        <h2>Anunciar e ganhar!
+        </h2>
+        <h3 class="estiloParagrafo ajustMargem">Escrito por: Lívia Aguiar</h3>
+        <h3 class="estiloParagrafo">15 de dezembro de 2023.</h3>
+    </div>
+    <main id="conteiner_topo"></main>
+
+<section id="conteudo">
+    <div id="textoArtigo">
+        
+            <p>
+                No mundo atual, o marketing digital se tornou uma ferramenta poderosa para empresas que desejam anunciar e alcançar o sucesso. Neste artigo, exploraremos estratégias eficazes para anunciar e ganhar no marketing digital. O marketing digital oferece uma variedade de canais e táticas que podem ser utilizados para promover produtos e serviços de forma eficiente. Uma das estratégias mais eficazes é a criação de conteúdo relevante e de qualidade, como blogs, vídeos e infográficos, que atraiam e engajem o público-alvo. Além disso, é importante utilizar técnicas de SEO (Search Engine Optimization) para garantir que o conteúdo seja encontrado pelos motores de busca e alcance uma posição elevada nos resultados de pesquisa. Outra estratégia importante é o uso das mídias sociais para promover a marca e interagir com os clientes. As plataformas como Facebook, Instagram, Twitter e LinkedIn oferecem a oportunidade de alcançar um público amplo e direcionado, além de permitir a comunicação em tempo real. Além disso, o marketing por e-mail é uma técnica eficaz para manter contato com os clientes existentes e potenciais, enviando informações relevantes sobre produtos, ofertas especiais e atualizações da empresa. É importante também investir em publicidade paga online, como anúncios no Google AdWords ou em redes sociais, para aumentar a visibilidade da marca e direcionar tráfego qualificado para o site da empresa. Por fim, é fundamental monitorar e analisar constantemente os resultados das estratégias de marketing digital para identificar o que está funcionando melhor e fazer ajustes quando necessário. Em resumo, anunciar e ganhar no marketing digital requer a utilização de várias estratégias eficazes, como criação de conteúdo relevante, uso das mídias sociais, marketing por e-mail e publicidade paga. Ao implementar essas estratégias de forma consistente e monitorar os resultados, as empresas podem alcançar o sucesso no ambiente digital.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <div class="icones"><i class="fa fa-angle-left"></i></div>
+    <img src="imgBlog/logoallblog.png" alt="" class="logoBlogFormat">
+</footer>
+    
+</body>
+</html>

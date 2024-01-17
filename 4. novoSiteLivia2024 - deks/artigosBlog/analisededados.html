@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3cc9f3880.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../MKT/SVG/fav-ico.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="estilo_artigo.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Inter", sans-serif;
+        }
+
+        body{
+            background-color: #f7c062;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #conteiner_topo{
+            padding: 10px;
+            width: 100%;
+            height: 400px;
+            background-color: #141414;
+            filter:brightness(60%);
+            background-image: url(imgBlog/grupo-de-pessoas.jpg);
+            background-repeat: no-repeat;
+            background-size: 200%;
+            background-position-y: -80px;
+        }
+
+        #textoTopo{
+            width: 90%;
+            z-index: 10;
+            position: absolute;
+            font-size: 1.5rem;
+            margin-top: 55px;
+            margin-bottom: 35px;
+            color: aliceblue;
+            font-weight: 200;
+            margin-left: 50px;
+        }
+
+        #textoArtigo{
+            color: #302d2d;
+            padding: 15px;
+        }
+
+        .estiloParagrafo{
+            color: aliceblue;
+            font-size: 20px;
+            font-weight: 200;
+            font-style: italic;
+        
+        }
+
+        .ajustMargem{
+            margin-top: 25px;
+        }
+
+        #conteudo {
+            width: 95%;
+            height: auto;
+            margin-top: 85px;
+            margin-bottom: 35px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        h3{
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: normal;
+            text-align: left;
+        }
+
+        footer{
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .icones{
+            padding: 35px;
+            font-size: 25px;
+        }
+
+        .logoBlogFormat{
+            width: 150px;
+            margin-bottom: 30px;
+            opacity: 0.5;
+        }
+
+        /* configuração para tela de pcs. */
+        @media (min-width: 580px) {
+            #textoArtigo{
+                width: 70%;
+        }
+
+        #conteudo{
+            display: flex;
+            justify-content: center;
+            
+            }
+        }
+
+    </style>
+
+    <title>Marketing de influência.</title>
+
+
+</head>
+<body>
+    <div id="textoTopo">
+        <h2>A análise de dados no marketing: impulsionando estratégias e resultados</h2>
+        <h3 class="estiloParagrafo ajustMargem">Escrito por: Lívia Aguiar</h3>
+        <h3 class="estiloParagrafo">15 de dezembro de 2023.</h3>
+    </div>
+    <main id="conteiner_topo"></main>
+
+<section id="conteudo">
+    <div id="textoArtigo">
+        
+            <p>
+                No mundo digital em constante evolução, as empresas têm acesso a uma quantidade cada vez maior de dados. Esses dados podem ser uma mina de ouro para as empresas que sabem como aproveitá-los corretamente. É aí que entra a análise de dados no marketing.
+                <br><br>
+                A análise de dados no marketing é o processo de coletar, organizar, interpretar e tomar decisões estratégicas com base nos dados obtidos. Ela desempenha um papel fundamental na compreensão do comportamento dos consumidores, identificação de tendências de mercado e mensuração do desempenho das campanhas de marketing.
+                <br><br>
+                Uma das principais vantagens da análise de dados no marketing é a capacidade de obter insights valiosos sobre o público-alvo. Ao analisar os dados demográficos, comportamentais e psicográficos dos consumidores, as empresas podem entender melhor quem são seus clientes, quais são suas preferências e necessidades, e como alcançá-los de maneira mais eficaz.
+                <br><br>
+                Além disso, a análise de dados também permite identificar tendências e padrões de consumo. Ao analisar os dados históricos e em tempo real, as empresas podem identificar quais produtos ou serviços estão em alta demanda, quais estratégias de marketing estão funcionando melhor e quais áreas precisam ser ajustadas para melhorar os resultados.
+                <br><br>
+                Outro benefício da análise de dados no marketing é a capacidade de mensurar o retorno sobre o investimento (ROI) das campanhas de marketing. Com os dados adequados, as empresas podem calcular o custo de aquisição de clientes, o valor vitalício do cliente e outras métricas importantes que ajudam a avaliar a eficácia das estratégias de marketing e tomar decisões informadas sobre alocação de recursos.
+                <br><br>
+                No entanto, é importante ressaltar que a análise de dados no marketing não se resume apenas à coleta e interpretação dos dados. É necessário ter as ferramentas certas e uma equipe capacitada para realizar análises avançadas e extrair insights relevantes. Também é crucial garantir a segurança e privacidade dos dados, em conformidade com as regulamentações aplicáveis.
+                <br><br>
+                Em resumo, a análise de dados no marketing é uma poderosa ferramenta que permite às empresas tomar decisões estratégicas com base em informações concretas. Ela oferece insights valiosos sobre o público-alvo, identifica tendências de mercado e mensura o desempenho das campanhas de marketing. No mundo atual, onde os dados são abundantes, a análise de dados no marketing se torna essencial para impulsionar o sucesso das empresas.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <div class="icones"><i class="fa fa-angle-left"></i></div>
+    <img src="imgBlog/logoallblog.png" alt="" class="logoBlogFormat">
+</footer>
+    
+</body>
+</html>

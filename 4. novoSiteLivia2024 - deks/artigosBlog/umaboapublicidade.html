@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3cc9f3880.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../MKT/SVG/fav-ico.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="estilo_artigo.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Inter", sans-serif;
+        }
+
+        body{
+            background-color: #f7c062;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #conteiner_topo{
+            padding: 10px;
+            width: 100%;
+            height: 400px;
+            background-color: #141414;
+            filter:brightness(60%);
+            background-image: url(imgBlog/grupo-de-pessoas.jpg);
+            background-repeat: no-repeat;
+            background-size: 200%;
+            background-position-y: -80px;
+        }
+
+        #textoTopo{
+            width: 90%;
+            z-index: 10;
+            position: absolute;
+            font-size: 1.5rem;
+            margin-top: 55px;
+            margin-bottom: 35px;
+            color: aliceblue;
+            font-weight: 200;
+            margin-left: 50px;
+        }
+
+        #textoArtigo{
+            color: #302d2d;
+            padding: 15px;
+        }
+
+        .estiloParagrafo{
+            color: aliceblue;
+            font-size: 20px;
+            font-weight: 200;
+            font-style: italic;
+        
+        }
+
+        .ajustMargem{
+            margin-top: 25px;
+        }
+
+        #conteudo {
+            width: 95%;
+            height: auto;
+            margin-top: 85px;
+            margin-bottom: 35px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        h3{
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: normal;
+            text-align: left;
+        }
+
+        footer{
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .icones{
+            padding: 35px;
+            font-size: 25px;
+        }
+
+        .logoBlogFormat{
+            width: 150px;
+            margin-bottom: 30px;
+            opacity: 0.5;
+        }
+
+        /* configuração para tela de pcs. */
+        @media (min-width: 580px) {
+            #textoArtigo{
+                width: 70%;
+        }
+
+        #conteudo{
+            display: flex;
+            justify-content: center;
+            
+            }
+        }
+
+    </style>
+
+    <title>Marketing de influência.</title>
+
+
+</head>
+<body>
+    <div id="textoTopo">
+        <h2>Um boa publicidade, uma boa imagem!
+        </h2>
+        <h3 class="estiloParagrafo ajustMargem">Escrito por: Lívia Aguiar</h3>
+        <h3 class="estiloParagrafo">15 de dezembro de 2023.</h3>
+    </div>
+    <main id="conteiner_topo"></main>
+
+<section id="conteudo">
+    <div id="textoArtigo">
+        
+            <p>
+                A publicidade desempenha um papel fundamental no sucesso de uma empresa ou marca. Neste artigo, discutiremos a importância de uma boa publicidade e como ela pode impactar positivamente os negócios. A publicidade tem o poder de aumentar a visibilidade de uma marca, alcançar um público mais amplo e criar uma imagem positiva na mente dos consumidores. Uma boa estratégia de publicidade permite que uma empresa se destaque da concorrência e se conecte emocionalmente com seu público-alvo. Além disso, a publicidade eficaz promove a lembrança da marca, gerando confiança e fidelidade dos clientes. Através da publicidade, as empresas podem transmitir mensagens claras sobre seus produtos ou serviços, enfatizando seus benefícios e diferenciais. Isso ajuda a influenciar as decisões de compra dos consumidores e a impulsionar as vendas. Além disso, uma boa publicidade pode ajudar a construir a reputação de uma empresa, destacando seus valores, responsabilidade social e compromisso com a qualidade. Isso é especialmente importante em um mercado competitivo, onde os consumidores têm várias opções para escolher. A publicidade também desempenha um papel crucial no lançamento de novos produtos ou na expansão para novos mercados. Ela cria conscientização e gera interesse em relação aos produtos ou serviços, estimulando o público a experimentá-los. Por fim, uma boa estratégia de publicidade permite que as empresas acompanhem as tendências do mercado e se adaptem às mudanças nas preferências dos consumidores. Ela ajuda a identificar oportunidades de crescimento e a tomar decisões estratégicas com base em dados e análises. Em resumo, uma boa publicidade é essencial para o sucesso de uma empresa. Ela aumenta a visibilidade da marca, influencia as decisões de compra dos consumidores, constrói reputação e impulsiona as vendas. Portanto, investir em uma estratégia de publicidade eficaz é fundamental para se destacar no mercado e alcançar o sucesso empresarial.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <div class="icones"><i class="fa fa-angle-left"></i></div>
+    <img src="imgBlog/logoallblog.png" alt="" class="logoBlogFormat">
+</footer>
+    
+</body>
+</html>
